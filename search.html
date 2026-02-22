@@ -1,3 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Search | CineJournal</title>
+    <meta name="description" content="Search your movie/show journal by title, genre, and rating.">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="search.html">Search</a>
+      <a href="login.html">Log In</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Search</h1>
+      <p>Use this page to find a movie/show you've added to your journal.</p>
+
+      <form id="searchForm">
+        <label for="query">Search by title:</label>
+        <input type="text" id="query" name="query" placeholder="e.g., Interstellar" required>
+
+        <label for="filter">Filter by:</label>
+        <select id="filter" name="filter">
+          <option value="all">All</option>
+          <option value="movie">Movies</option>
+          <option value="show">Shows</option>
+          <option value="genre">Genre</option>
+          <option value="rating">Rating</option>
+        </select>
+
+        <button type="submit">Search</button>
+      </form>
+
+      <p id="searchMessage" role="status" aria-live="polite"></p>
+
+      <section aria-label="Search results">
+        <h2>Results</h2>
+        <ul>
+          <li><a href="review.html">Example Result 1 (sample link)</a></li>
+          <li><a href="review.html">Example Result 2 (sample link)</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
