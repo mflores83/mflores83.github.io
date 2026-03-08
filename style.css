@@ -74,6 +74,7 @@ section a {
   display: flex;
   align-items: flex-start;
   gap: 30px;
+  margin-bottom: 30px;
 }
 
 .review-text {
@@ -90,12 +91,13 @@ main p {
 }
 
 h2 {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 table {
   border-collapse: collapse;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 th, td {
