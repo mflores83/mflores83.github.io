@@ -60,3 +60,12 @@ section a {
   margin-top: 20px;
   font-size: 14px;
 }
+
+.card-link {
+  text-decoration: none;
+  color: black;
+}
+
+.card-link: hover {
+  opacity: 0.9;
+}
