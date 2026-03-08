@@ -55,3 +55,8 @@ section a {
   height: auto;
   display: block;
 }
+
+.image-note {
+  margin-top: 20px;
+  font-size: 14px;
+}
