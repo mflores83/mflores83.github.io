@@ -154,7 +154,7 @@ th, td {
   }
 
   section {
-    padding: 40px 20px;
+    padding: 30px 15px;
   }
 
   h1 {
@@ -169,8 +169,8 @@ th, td {
   }
 
   section a {
-    padding: 12px 18px;
-    font-size: 18px;
+    padding: 10px 16px;
+    font-size: 16px;
   }
 
   .board {
@@ -188,7 +188,7 @@ th, td {
     text-align: center;
   }
 
-  .review.text {
+  .review-text {
     max-width: 100%;
   }
 
