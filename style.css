@@ -107,3 +107,12 @@ th, td {
   border: 1px solid black;
   padding: 8px 12px;
 }
+
+.features {
+  margin-top: 10px;
+}
+
+.features p {
+  margin: 8px 0;
+  font-size: 18px;
+}
