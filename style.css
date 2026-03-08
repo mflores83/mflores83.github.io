@@ -154,7 +154,7 @@ th, td {
   }
 
   section {
-    pading: 40px 20px;
+    padding: 40px 20px;
   }
 
   h1 {
@@ -174,7 +174,7 @@ th, td {
   }
 
   .board {
-    jsutify-content: center;
+    justify-content: center;
   }
 
   .card {
