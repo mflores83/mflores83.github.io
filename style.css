@@ -200,4 +200,15 @@ th, td {
     width: 100%;
     font-size: 14px;
   }
+
+  .resources {
+    text-align: center;
+  }
+
+  .resources a {
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 220px;
+  }
 }
