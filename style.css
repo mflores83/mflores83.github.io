@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #e6edf5; /* modern light blue-gray */
 }
 
 header {
@@ -16,11 +17,13 @@ nav a {
 }
 
 main {
+  background-color: white;
   padding: 40px;
+  margin: 40px;
 }
 
 section {
-  background-color: #c4c4c4;
+  background-color: #d9d9d9;
   padding: 120px;
   text-align: center;
 }
@@ -66,7 +69,7 @@ section a {
   color: black;
 }
 
-.card-link: hover {
+.card-link:hover {
   opacity: 0.9;
 }
 
