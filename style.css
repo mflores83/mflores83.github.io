@@ -73,14 +73,32 @@ section a {
 .review-header {
   display: flex;
   align-items: flex-start;
-  gap: 20px;
+  gap: 30px;
 }
 
 .review-text {
   max-width: 500px;
 }
+
+main p {
+  line-height: 1.5;
+}
   
 .review-poster {
   width: 200px;
   height: auto;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px 12px;
 }
