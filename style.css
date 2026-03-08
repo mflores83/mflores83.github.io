@@ -70,7 +70,17 @@ section a {
   opacity: 0.9;
 }
 
+.review-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.review-text {
+  max-width: 500px;
+}
+  
 .review-poster {
-  width: 180px;
+  width: 200px;
   height: auto;
 }
