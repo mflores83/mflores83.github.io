@@ -116,3 +116,17 @@ th, td {
   margin: 8px 0;
   font-size: 18px;
 }
+
+.resources {
+  margin-top: 20px;
+}
+
+.resources a {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+}
