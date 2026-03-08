@@ -34,3 +34,18 @@ section a {
   color: black;
   font-weight: bold;
 }
+
+.board {
+  display: flex;
+  gap: 20px;
+  margin-top; 20px
+}
+
+.card {
+  width: 120px;
+  height: 150px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
