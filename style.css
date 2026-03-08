@@ -69,3 +69,8 @@ section a {
 .card-link: hover {
   opacity: 0.9;
 }
+
+.review-poster {
+  width: 180px;
+  height: auto;
+}
